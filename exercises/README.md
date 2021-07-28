@@ -98,4 +98,15 @@ Test on Shakespeare's Hamlet (https://gist.githubusercontent.com/davewadestein/2
 
 # Exercise 11: HTTP API
 
-# Exercise 12: Vue.js Front-End
+- write a Go program to provide a REST API for orders
+- the order type will have 4 properties: ID, order number, description, and total
+- you can use an in-memory data structure to store the orders
+- ID will be an internal number in sequence - 1, 2, 3, ...
+- include routes for the following:
+
+    * retrieve all orders
+    * retrieve order by id
+    * add a new order
+    * edit an existing order
+
+- you can use a tool like POSTMan (or curl) to test
