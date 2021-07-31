@@ -6,7 +6,7 @@
       "type": "go",
       "request": "launch",
       "mode": "auto",
-      "program": "${workspaceFolder}/exercises/pointers",
+      "program": "${workspaceFolder}/exercises/order-entry/backend/cmd",
       "env": {
         "WATCH_NAMESPACE": "default"
       },
