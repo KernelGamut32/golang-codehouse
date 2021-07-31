@@ -1,16 +1,16 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "name": "GoLang Debug Settings - General",
-        "type": "go",
-        "request": "launch",
-        "mode": "auto",
-        "program": "${workspaceFolder}/path/to/go/file",
-        "env": {
-          "WATCH_NAMESPACE": "default"
-        },
-        "args": []
-      }
-    ]
-  }
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "GoLang Debug Settings - General",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/exercises/pointers",
+      "env": {
+        "WATCH_NAMESPACE": "default"
+      },
+      "args": []
+    }
+  ]
+}
